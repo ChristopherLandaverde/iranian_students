@@ -9,6 +9,7 @@ import pandas as pd
 df=pd.read_csv('iranian_students.csv')
 
 app = dash.Dash(__name__,external_stylesheets=[dbc.themes.BOOTSTRAP])
+server = app.server
 
 
 ## filtered dataframes
